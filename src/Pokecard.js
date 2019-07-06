@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import "./Pokecard.css";
 import leftPad from 'left-pad';
-const POKE_API = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/';
 
 class Pokecard extends Component{
     render(){
@@ -12,7 +11,7 @@ class Pokecard extends Component{
             <div className="Pokecard">
                 <ul className="pokecard-item">
                     <li className="pokecard-name">{poke.name}</li>
-                    <img className="pokecard-img" src={`${POKE_API}${id}.png`} />
+                    <img className="pokecard-img" src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${id}.png`} />
                     <li>Type: {poke.type}</li>
                     <li>EXP: {poke.base_experience}</li>
                 </ul>
