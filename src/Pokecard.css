@@ -6,7 +6,7 @@
     background: #ddd;
     margin:0.5em;
     padding: 1em;
-    box-shadow: 2px 4px 6px rgba(00, 0, 0, 0.3);
+    box-shadow: 2px 4px 6px -5px rgba(00, 0, 0, 0.3);
     border-radius: 5px;
 }
 .pokecard-item{
@@ -21,6 +21,7 @@
 }
 .pokecard-name{
     color: blue;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
