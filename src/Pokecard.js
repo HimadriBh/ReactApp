@@ -13,7 +13,9 @@ class Pokecard extends Component{
             <div className="Pokecard">
                 <ul className="pokecard-item">
                     <li className="pokecard-name">{name}</li>
-                    <img className="pokecard-img" src={imgSrc} alt={name}/>
+                    <div className="Pokecard-image">
+                        <img className="pokecard-img" src={imgSrc} alt={name}/>
+                    </div>
                     <li>Type: {type}</li>
                     <li>EXP: {exp}</li>
                 </ul>
